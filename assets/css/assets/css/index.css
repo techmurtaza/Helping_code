@@ -1,0 +1,47 @@
+*{
+	word-break: break-all;
+
+}
+h4{
+
+	margin-bottom: 2% !important;
+	font-weight: bold;
+
+}
+li{
+	margin-left: 2% !important; 
+}
+.container{
+
+	padding: 5% !important;
+	font-size: 1.2em;
+}
+#div{
+
+	width: 20%;
+	position: absolute;
+
+	margin-left: 50%;
+	opacity: 70%;
+	text-align: center;
+	background: #1a1a1a;
+}
+span:hover{
+	
+	
+	display: inline-block;
+}
+span, a{
+display: inline-block;
+margin: 5px;	
+}
+.na{
+	color: rgb(161, 193, 228) !important;
+}
+.na:hover{
+	color: rgb(79, 178, 255) !important;
+	font-weight: bold !important;
+}
+.a:hover{
+	color: purple;
+}
