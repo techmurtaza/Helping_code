@@ -1,6 +1,6 @@
 $(function(){
 
-	$('span').click(function(){
+	$('pre').click(function(){
 
 		var $temp = $("<input>");
 	    $("body").append($temp);
@@ -10,13 +10,13 @@ $(function(){
 	    $temp.remove();
 	})
 
-	$('span').hover(function(){
+	$('pre').hover(function(){
 		if($('body').find('#div').length){
 			console.log("inside")
 
 		}else{
 
-			var div = $("<div id=\"div\"><span class=\"text-white\">click on text to copy</span></div>")
+			var div = $("<div id=\"div\"><span class=\"text-white\">click to copy</span></div>")
 			div.appendTo(this);
 		}
 		console.log(div);
