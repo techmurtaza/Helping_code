@@ -32,14 +32,16 @@ padding: 1%;
 }
 
 .na{
+	margin-left: 10% !important; 
 	color: rgb(161, 193, 228) !important;
 }
 
 .na:hover{
+	margin-left: 10% !important;
 	color: rgb(79, 178, 255) !important;
-	font-weight: bold !important;
+	/*font-weight: bold !important;*/
+	/*position: static;*/
 }
-
 .a:hover{
 	color: purple;
 }
