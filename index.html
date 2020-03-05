@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>helping code</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta charset="utf-8"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
@@ -11,7 +12,7 @@
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
 
 		  <a class="navbar-brand text-white" href="#">Helping functions</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		  <button class="navbar-toggler" type="button" id="navbtn" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -20,6 +21,7 @@
 		      <a class="nav-item nav-link na" href="#Bootstrap">Bootstrap</a>
 		      <a class="nav-item nav-link na" href="#Jquery">Jquery</a>
 		      <a class="nav-item nav-link na" href="#Some_imp_link">Links</a>
+		      <a class="nav-item nav-link na" href="#mysql">MySql</a>
 		<!--       <a class="nav-item nav-link " href="#">PHP</a> -->
 		    </div>
 		  </div>
@@ -27,7 +29,7 @@
 	</header>
 
 
-	<div class=" mt-3 pt-5"></div>
+	<!-- <div class=" mt-3 pt-3"></div> -->
 	<div class="bg-secondary pt-2">
 	<section id="HTML"  class=" mt-4 text-white container" >
 		<div>
@@ -48,9 +50,7 @@
 		<div>
 			<ul><h4>Bootstrap Link</h4>
 				<li>Bootstrap CSS <pre> &ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"&gt</pre> </li>
-				<li>Bootstrap Script 
-					<pre> 
-&ltscript src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt&lt/script&gt <br>
+				<li>Bootstrap Script<pre>&ltscript src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt&lt/script&gt <br>
 &ltscript src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"&gt&lt/script&gt<br>
 &ltscript src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"&gt&lt/script&gt
 					</pre></li>
@@ -67,6 +67,7 @@
 				<li>Jquery Uncompressed <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
 				<li>Jquery Minified <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
 				<li>Javascript link <pre > &ltscript type="text/javascript" src="assets/js/index.js"&gt</pre> </li>
+				<li>Font Awesome link <pre > &ltscript src="https://kit.fontawesome.com/3ab41708b2.js" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
 			</ul>	
 		</div>
 	</section>
@@ -74,19 +75,31 @@
 		
 	<section id="Some_imp_link" class="container">
 		<div>
-			<ul><h4>Imp Links</h4>
-				<li>SVG Curved Path generator <a class="a" href="https://codepen.io/anthonydugois/pen/mewdyZ" target="_blank"> Code pen</a></li>
-				<li>Clip path generator <a class="a" href="https://bennettfeely.com/clippy/" target="_blank"> Clippy </a></li>
-				<li>Color picker <a class="a" href="https://www.w3schools.com/colors/default.asp" target="_blank">W3school Color</a></li>				
-				<li>Database schema  <a class="a" href="https://dbdiagram.io/home" target="_blank">Db schema Maker</a>
+			<ul>
+				<h4>Imp Links</h4>
+				<li class="row p-2 "><span class="col-md-5">SVG Curved Path generator </span><a class="a col-md-5" href="https://codepen.io/anthonydugois/pen/mewdyZ" target="_blank"> Code pen</a></li>
+				<li class="row p-2"><span class="col-md-5">Clip path generator </span><a class="a col-md-5" href="https://bennettfeely.com/clippy/" target="_blank"> Clippy </a></li>
+				<li class="row p-2"><span class="col-md-5">Color picker</span><a class="a col-md-5" href="https://www.w3schools.com/colors/default.asp" target="_blank">W3school Color</a></li>				
+				<li class="row p-2"><span class="col-md-5">Database schema </span><a class="a col-md-5" href="https://dbdiagram.io/home" target="_blank">Db schema Maker</a>
 				</li>				
-				<li>Css Gradient Background  <a class="a" href="https://cssgradient.io/" target="_blank">Gradient background</a>
+				<li class="row p-2"><span class="col-md-5">Css Gradient Background </span><a class="a col-md-5" href="https://cssgradient.io/" target="_blank">Gradient background</a>
 				</li>
-				<li>Online photoshop<a class="a" href="https://www.photopea.com/" target="_blank">Photopea</a>
+				<li class="row p-2"><span class="col-md-5">Online photoshop </span><a class="a col-md-5" href="https://www.photopea.com/" target="_blank">Photopea</a>
 				</li>
 			</ul>	
 		</div>
 	</section>
+
+	<div class="bg-secondary text-white">
+		
+		<section id="mysql" class="container">
+		<div>
+			<ul><h4>MySql</h4>
+				<li>Show created table query<pre >show create table table_name</pre> </li>
+			</ul>	
+		</div>
+	</section>
+	</div>
 <!-- end -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -94,4 +107,3 @@
 <script type="text/javascript" src="assets/js/index.js"></script>
 </body>
 </html>
-
