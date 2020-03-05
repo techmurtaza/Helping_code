@@ -1,3 +1,19 @@
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+} 
+
+::-webkit-scrollbar-thumb {
+  background:  rgb(181, 181, 181);
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+ background:	rgb(84, 84, 84);
+}
+
+
 h4{
 
 	margin-bottom: 2% !important;
@@ -11,24 +27,28 @@ li{
 
 .container{
 
-	padding: 5% !important;
+	padding: 60px 5% 5% 5%  !important;
 	font-size: 1.2em;
 }
 
 #div{
 
 	position: absolute;
-	padding: .5%;	
+	padding: .5%;
 	margin-left: 20%;
 	opacity: 70%;
 	text-align: center;
 	background: #1a1a1a;
+	border-radius: 15% 5%;
 }
 
-pre, a{
+pre{
 
 margin: 5px !important;
 padding: 1%; 	
+}
+a{
+	margin: 0px 5px 0px 5px !important;
 }
 
 .na{
@@ -44,4 +64,9 @@ padding: 1%;
 }
 .a:hover{
 	color: purple;
+}
+ul{
+	padding-inline-start: 20px !important;
+    padding-inline-end: 20px !important;
+
 }
