@@ -4,8 +4,9 @@
 	<title>helping code</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta charset="utf-8"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
 <body>
 	<header>
@@ -31,13 +32,13 @@
 
 	<!-- <div class=" mt-3 pt-3"></div> -->
 	<div class="bg-secondary pt-2">
-	<section id="HTML"  class=" mt-4 text-white container" >
+	<section id="HTML" data-aos="fade-down" data-aos-duration="1500" class=" mt-4 text-white container" >
 		<div>
 			<ul><h4 class="font-weight-bold" >Meta Links</h4>
-				<li>Viewport <pre> &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</pre> </li>
-				<li>Charset <pre> &ltmeta charset="utf-8"&gt</pre> </li>
-				<li>Description <pre> &ltmeta name="description" content="This is meta description Sample. We can add up to 158."&gt</pre> </li>
-				<li>Title bar image <pre>&ltlink rel="icon" href="location" type="image/x-icon"&gt </pre></li>
+				<li data-aos="fade-right" data-aos-duration="2800" >Viewport <pre> &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt</pre> </li>
+				<li data-aos="fade-left" data-aos-duration="2800">Charset <pre> &ltmeta charset="utf-8"&gt</pre> </li>
+				<li data-aos="fade-right" data-aos-duration="2800">Description <pre> &ltmeta name="description" content="This is meta description Sample. We can add up to 158."&gt</pre> </li>
+				<li data-aos="fade-left" data-aos-duration="2800">Title bar image <pre>&ltlink rel="icon" href="location" type="image/x-icon"&gt </pre></li>
 			</ul>
 			<!-- &lt&gt -->
 		</div>
@@ -46,16 +47,16 @@
 	</div>
 
 
-	<section id="Bootstrap" class="container">
+	<section id="Bootstrap"  class="container">
 		<div>
-			<ul><h4>Bootstrap Link</h4>
-				<li>Bootstrap CSS <pre> &ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"&gt</pre> </li>
-				<li>Bootstrap Script<pre>&ltscript src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt&lt/script&gt <br>
+			<ul><h4 data-aos="fade-down" data-aos-duration="1500">Bootstrap Link</h4>
+				<li data-aos="fade-up" data-aos-duration="2800" >Bootstrap CSS <pre> &ltlink rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"&gt</pre> </li>
+				<li data-aos="fade-up" data-aos-duration="2800">Bootstrap Script<pre>&ltscript src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"&gt&lt/script&gt <br>
 &ltscript src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"&gt&lt/script&gt<br>
 &ltscript src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"&gt&lt/script&gt
 					</pre></li>
-				<li>Css link <pre > &ltlink rel="stylesheet" type="text/css" href="filename"&gt</pre> </li>
-				<li>Font Awesome link <pre > &ltscript src="https://kit.fontawesome.com/3ab41708b2.js" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
+				<li data-aos="fade-up" data-aos-duration="2800">Css link <pre > &ltlink rel="stylesheet" type="text/css" href="filename"&gt</pre> </li>
+				<li data-aos="fade-up" data-aos-duration="2800">Font Awesome link <pre > &ltscript src="https://kit.fontawesome.com/3ab41708b2.js" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
 			</ul>	
 		</div>
 	</section>
@@ -63,11 +64,12 @@
 		
 		<section id="Jquery" class="container">
 		<div>
-			<ul><h4>Jquery Link</h4>
-				<li>Jquery Uncompressed <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
-				<li>Jquery Minified <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
-				<li>Javascript link <pre > &ltscript type="text/javascript" src="assets/js/index.js"&gt</pre> </li>
-				<li>Font Awesome link <pre > &ltscript src="https://kit.fontawesome.com/3ab41708b2.js" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
+			<ul>
+				<h4 data-aos="fade-down" data-aos-duration="1500">Jquery Link</h4>
+				<li data-aos="fade-right" data-aos-duration="2800">Jquery Uncompressed <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
+				<li data-aos="fade-left" data-aos-duration="2800">Jquery Minified <pre > &ltscript src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
+				<li data-aos="fade-right" data-aos-duration="2800">Javascript link <pre > &ltscript type="text/javascript" src="assets/js/index.js"&gt</pre> </li>
+				<li data-aos="fade-left" data-aos-duration="2800">Font Awesome link <pre > &ltscript src="https://kit.fontawesome.com/3ab41708b2.js" crossorigin="anonymous"&gt&lt/script&gt</pre> </li>
 			</ul>	
 		</div>
 	</section>
@@ -76,15 +78,17 @@
 	<section id="Some_imp_link" class="container">
 		<div>
 			<ul>
-				<h4>Imp Links</h4>
-				<li class="row p-2 "><span class="col-md-5">SVG Curved Path generator </span><a class="a col-md-5" href="https://codepen.io/anthonydugois/pen/mewdyZ" target="_blank"> Code pen</a></li>
-				<li class="row p-2"><span class="col-md-5">Clip path generator </span><a class="a col-md-5" href="https://bennettfeely.com/clippy/" target="_blank"> Clippy </a></li>
-				<li class="row p-2"><span class="col-md-5">Color picker</span><a class="a col-md-5" href="https://www.w3schools.com/colors/default.asp" target="_blank">W3school Color</a></li>				
-				<li class="row p-2"><span class="col-md-5">Database schema </span><a class="a col-md-5" href="https://dbdiagram.io/home" target="_blank">Db schema Maker</a>
+				<h4 data-aos="fade-down" data-aos-duration="1500">Imp Links</h4>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2 "><span class="col-md-5">SVG Curved Path generator </span><a class="a col-md-5" href="https://codepen.io/anthonydugois/pen/mewdyZ" target="_blank"> Code pen</a></li>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Clip path generator </span><a class="a col-md-5" href="https://bennettfeely.com/clippy/" target="_blank"> Clippy </a></li>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Color picker</span><a class="a col-md-5" href="https://www.w3schools.com/colors/default.asp" target="_blank">W3school Color</a></li>				
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Database schema </span><a class="a col-md-5" href="https://dbdiagram.io/home" target="_blank">Db schema Maker</a>
 				</li>				
-				<li class="row p-2"><span class="col-md-5">Css Gradient Background </span><a class="a col-md-5" href="https://cssgradient.io/" target="_blank">Gradient background</a>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Css Gradient Background </span><a class="a col-md-5" href="https://cssgradient.io/" target="_blank">Gradient background</a>
 				</li>
-				<li class="row p-2"><span class="col-md-5">Online photoshop </span><a class="a col-md-5" href="https://www.photopea.com/" target="_blank">Photopea</a>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Online photoshop </span><a class="a col-md-5" href="https://www.photopea.com/" target="_blank">Photopea</a>
+				</li>
+				<li data-aos="fade-up" data-aos-duration="2800" class="row p-2"><span class="col-md-5">Animation Scroll</span><a class="a col-md-5" href="https://michalsnik.github.io/aos/" target="_blank">Michalsnik</a>
 				</li>
 			</ul>	
 		</div>
@@ -92,18 +96,22 @@
 
 	<div class="bg-secondary text-white">
 		
-		<section id="mysql" class="container">
+		<section id="mysql"  class="container">
 		<div>
-			<ul><h4>MySql</h4>
-				<li>Show created table query<pre >show create table table_name</pre> </li>
+			<ul><h4 data-aos="fade-down" data-aos-duration="1500">MySql</h4>
+				<li data-aos="fade-right" data-aos-duration="2800" >Show created table query<pre >show create table table_name</pre> </li>
 			</ul>	
 		</div>
 	</section>
 	</div>
 <!-- end -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/index.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script type="text/javascript" src="assets/js/index.js"></script>
+	 <script>
+	    AOS.init();
+	  </script>
 </body>
 </html>
