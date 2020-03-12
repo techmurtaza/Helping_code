@@ -69,4 +69,18 @@ ul{
 	padding-inline-start: 20px !important;
     padding-inline-end: 20px !important;
 
+}	
+.fab{
+	cursor: pointer;
+	margin: 10px;
+	padding: 5px;
+	color: grey!important;
 }
+
+.fab:hover{
+	cursor: pointer;
+	margin: 10px;
+	padding: 5px;
+	color: white!important;
+}
+
