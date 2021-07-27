@@ -1,37 +1,41 @@
-
 ::-webkit-scrollbar {
-  width: 5px;
-  height: 2px;
-} 
+	width: 5px;
+	height: 2px;
+}
+
+#navbarNavAltMarkup .navbar-nav{
+	overflow: scroll;
+	flex: auto;
+}
 
 ::-webkit-scrollbar-thumb {
-  background:  rgb(181, 181, 181);
+	background: rgb(181, 181, 181);
 
 }
 
 ::-webkit-scrollbar-thumb:hover {
- background:	rgb(84, 84, 84);
+	background: rgb(84, 84, 84);
 }
 
 
-h4{
+h4 {
 
 	margin-bottom: 2% !important;
 	font-weight: bold;
 }
 
-li{
+li {
 
-	margin-left: 5% !important; 
+	margin-left: 5% !important;
 }
 
-.container{
+.container {
 
-	padding: 60px 5% 5% 5%  !important;
+	padding: 60px 5% 5% 5% !important;
 	font-size: 1.2em;
 }
 
-#div{
+#div {
 
 	position: absolute;
 	padding: .5%;
@@ -42,45 +46,48 @@ li{
 	border-radius: 15% 5%;
 }
 
-pre{
+pre {
 
-margin: 5px !important;
-padding: 1%; 	
+	margin: 5px !important;
+	padding: 1%;
 }
-a{
+
+a {
 	margin: 0px 5px 0px 5px !important;
 }
 
-.na{
-	margin-left: 10% !important; 
+.na {
+	margin-left: 10% !important;
 	color: rgb(161, 193, 228) !important;
 }
 
-.na:hover{
+.na:hover {
 	margin-left: 10% !important;
 	color: rgb(1, 194, 253) !important;
 	/*font-weight: bold !important;*/
 	/*position: static;*/
 }
-.a:hover{
+
+.a:hover {
 	color: purple;
 }
-ul{
+
+ul {
 	padding-inline-start: 20px !important;
-    padding-inline-end: 20px !important;
+	padding-inline-end: 20px !important;
 
-}	
-.fab{
+}
+
+.fab {
 	cursor: pointer;
 	margin: 10px;
 	padding: 5px;
-	color: grey!important;
+	color: grey !important;
 }
 
-.fab:hover{
+.fab:hover {
 	cursor: pointer;
 	margin: 10px;
 	padding: 5px;
-	color: white!important;
+	color: white !important;
 }
-
