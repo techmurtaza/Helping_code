@@ -47,7 +47,8 @@ li {
 }
 
 pre {
-
+	cursor: url('../svg/copy-solid.svg'), copy;
+	/* cursor: copy; */
 	margin: 5px !important;
 	padding: 1%;
 }
